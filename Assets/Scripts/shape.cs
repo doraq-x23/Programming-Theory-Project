@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class shape
+public class shape : MonoBehaviour
 {
     private Color m_color;// ENCAPSULATION
-    public virtual void ShowMessage()
+    public Text shapeText;
+    public virtual void ShowMessage() // POLYMORPHISM
     {
 
     }
